@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<title>Like, Unlike And Share Button</title>
+
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="css/all.css">
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	</head>
+
+	<body id="Body">
+
+		<section class="section-div">
+
+			<div class="post-hader">
+				
+				<a href="#"><div class="profile-images">
+					<img src="images/profile-images/new-images.jpg">
+					<div class="online_offline_icon"></div>
+				</div></a>
+
+				<div class="three-dot-div" id="three-dot-btn-show">
+					
+					<ul>
+						<li id="Pin_Post_Button">
+							<i class="fas fa-thumbtack"></i> Pin Post</li>
+						<li id="Save_Post_Button">
+							<i class="fas fa-bookmark"></i> 
+							Save Post 
+							<p>Add this to your saved items.</p>
+						</li>
+
+						<hr class="list-hr-three-dot">
+
+						<li><i class="fas fa-pen"></i> Edit Post</li>
+
+						<li id="Edit_Audicnce">
+							<i class="fas fa-user-edit"></i> Edit audience
+						</li>
+
+						<li id="Turn_off_notifications">
+							<i class="fas fa-bell-slash"></i> Turn off notifications for this post</li>
+
+						<li><i class="far fa-calendar-alt"></i> Edit date</li>
+
+						<hr class="list-hr-three-dot">
+
+						<li>
+							<i class="fas fa-trash-alt"></i> 
+							Move to trash 
+							<p>Items in your trash are deleted after 30 days.</p>
+						</li>
+
+					</ul>
+
+				</div>
+
+				<div class="three-dot-div share-btn-div" id="share-btn-btn-show">
+					
+					<ul>
+						<li id="Pin_Post_Button">
+							<i class="fas fa-share"></i> Share Now (Only Me)</li>
+						<li id="Save_Post_Button">
+							<i class="far fa-edit"></i> 
+							Share to News Feed
+						</li>
+
+						<li><i class="fas fa-comment-dots"></i> Sent to Messanger</li>
+
+						<li><i class="fas fa-users"></i> Share to a Groups</li>
+
+						<li><i class="far fa-flag"></i> Share to a Page</li>
+
+						<li><i class="fas fa-user-friends"></i> Share on a friend's profile</li>
+
+					</ul>
+
+				</div>
+
+				<h1>
+					<span class="profile-name-text">
+
+						<a href="#" id="Profile_Name">Damo</a>
+
+						<div class="profile-name-hover">
+						
+							<a href="#"><div class="profile-images">
+								<img src="images/profile-images/new-images.jpg">
+								<div class="online_offline_icon"></div>
+							</div></a>
+
+							<h2>
+								<a href="#" id="Profile_Name">Damo</a>
+							</h2>
+
+							<p>
+								<span class="fas fa-briefcase pn-hover-icon"></span>
+								<span>সাধারণ ছেলে, at </span> 
+								<a href="#">Facebook App</a>
+							</p>
+
+							<p>
+								<span class="fas fa-home pn-hover-icon"></span>
+								<span>Lives in </span>
+								<a href="#">Dhaka, Bangladesh</a>
+							</p>
+
+							<ul>
+								<a href="#"><li class="add-storry-btn">
+									<i class="fas fa-plus-circle"></i>
+									Add to Storry
+								</li></a>
+								<li class="edit-profile-btn">
+									<i class="fas fa-pen"></i>
+									Edite Profile
+								</li>
+								<li class="three-dot-btn">
+									<i class="fas fa-ellipsis-h"></i>
+								</li>
+							</ul>
+
+						</div>
+
+					</span>
+
+					
+
+				</h1>
+
+				<p><a href="#" class="Post_upload_date">August 16 
+
+					<span class="uplode-Date_Hover">
+						Monday, 16 August, 2021 at 8:30 PM
+					</span>
+
+				</a>
+					<span class="icon-public">
+						<span class="fas fa-lock" id="public_icon"></span>
+
+						<span class="Icon-Hover_Filter" id="Select-Icon_Name">
+							Friends
+						</span>
+
+						<div class="IP_Click-Icon" id="PublicIconHover">
+							
+							<div class="ipc-hader">
+								<h3>Select audience</h3>
+								<span class="fas fa-times" id="PublicIconHover-close"></span>
+							</div>
+
+
+							<div class="scroll-div-public">
+								<ul>
+									<li id="Public-Icon-Div">
+										<span class="fas fa-globe-americas"></span>
+										<h2>Public</h2>
+										<p>Anyone on or off Facebook</p>
+
+										<div class="active-div-design" id="PID_Select_Border">
+											<div class="a-d_d-in" id="PID_Select_Div"></div>
+										</div>
+									</li>
+
+									<li id="Friends-Icon-Div">
+										<span class="fas fa-user-friends"></span>
+										<h2>Friends</h2>
+										<p>Your friends on Facebook</p>
+
+										<div class="active-div-design" id="FsID_Select_Border">
+											<div class="a-d_d-in" id="FsD_Select_Div"></div>
+										</div>
+									</li>
+
+									<li>
+										<span class="fas fa-user-plus"></span>
+										<h2>Friends except...</h2>
+										<p>Friends; Except: <i>Sad Mia</i></p>
+
+										<div class="active-icon-design">
+											<i class="fas fa-chevron-right"></i>
+										</div>
+									</li>
+
+									<li>
+										<span class="fas fa-user"></span>
+										<h2>Specific friends</h2>
+										<p>Only show to some friends</p>
+
+										<div class="active-icon-design">
+											<i class="fas fa-chevron-right"></i>
+										</div>
+									</li>
+
+									<li id="only_ME-Icon-Div">
+										<span class="fas fa-lock"></span>
+										<h2 class="only-me">Only me</h2>
+
+										<div class="active-div-design" id="lID_Select_Border">
+											<div class="a-d_d-in icon-select" id="lD_Select_Div"></div>
+										</div>
+									</li>
+
+									<li>
+										<span class="fas fa-cog"></span>
+										<h2>Custom</h2>
+										<p>Include and exclude friends and lists</p>
+
+										<div class="active-icon-design">
+											<i class="fas fa-chevron-right"></i>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+
+					</span>
+				</p>
+
+				<span class="fas fa-ellipsis-h three-dot" id="three-dot-btn-click"></span>
+
+				<span class="fas fa-ellipsis-h three-dot" id="three-dot-btn-click2"></span>
+
+			</div>
+
+			<div class="post-text">
+				Hello Bangladesh. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			</div>
+
+			<div class="post-images">
+				<img src="images/post-images/1.jpg">
+			</div>
+
+			<div class="post-react-show">
+				<div class="like-count-and-icon">
+					<ul>
+						<li class="like-count-icon">
+							<img src="images/icon/svg-icon/facebook-reaction-like.svg">
+						</li>
+
+						<li class="love-count-icon">
+							<img src="images/icon/svg-icon/facebook-love.svg">
+						</li>
+
+						<li class="wow-count-icon">
+							<img src="images/icon/svg-icon/facebook-wow.svg">
+						</li>
+
+						<li class="haha-count-icon">
+							<img src="images/icon/svg-icon/facebook-haha.svg">
+						</li>
+
+						<li class="sad-count-icon">
+							<img src="images/icon/svg-icon/facebook-reaction-sad.svg">
+						</li>
+
+						<li class="angry-count-icon">
+							<img src="images/icon/svg-icon/facebook-angry.svg">
+						</li>
+
+						<div class="like-count-div"><a href="#" id="like-count-value">1.3k</a></div>
+					</ul>
+				</div>
+
+				<div class="comment-and-share-count">
+					<ul>
+						<li class="comment-count">56 Comments</li>
+						<li class="share-count">9 Shares</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="button-site">
+				<div class="like-btn" id="Like-Button">
+					
+					<div class="like-lite" id="like_lite_button">
+						<i class="far fa-thumbs-up"></i>
+						<span>Like</span>
+					</div>
+
+					<div class="like-dark" id="like_dark_button">
+						<i class="fas fa-thumbs-up"></i>
+						<span>Like</span>
+					</div>
+
+					
+
+					<div class="hover-window-like">
+						<ul>
+							<li class="like-gif-img">
+								<img src="images/icon/facebook-react-gif/like.gif">
+							</li>
+
+							<li class="love-gif-img">
+								<img src="images/icon/facebook-react-gif/love.gif">
+							</li>
+
+							<li class="wow-gif-img">
+								<img src="images/icon/facebook-react-gif/wow.gif">
+							</li>
+
+							<li class="haha-gif-img">
+								<img src="images/icon/facebook-react-gif/haha.gif">
+							</li>
+
+							<li class="sad-gif-img">
+								<img src="images/icon/facebook-react-gif/sad.gif">
+							</li>
+
+							<li class="angry-gif-img">
+								<img src="images/icon/facebook-react-gif/angry.gif">
+							</li>
+						</ul>
+					</div>
+
+
+				</div>
+
+				<div class="comment-btn" id="Comment-btn">
+					<div class="comment-center-div" id="comment-btn">
+						<div class="icon-match comment-pose">
+							<img src="images/icon/icon.png">
+						</div>
+						<span>Comment</span>
+					</div>
+				</div>
+
+				<div class="share-btn">
+					<div class="share-center-div" id="share-btn">
+						<div class="icon-match share-pose">
+							<img src="images/icon/icon.png">
+						</div>
+						<span>Share</span>
+					</div>
+				</div>
+
+				<div class="share-btn2">
+					<div class="share-center-div" id="share-btn">
+						<div class="icon-match share-pose">
+							<img src="images/icon/icon.png">
+						</div>
+						<span>Share</span>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="all-comment-show">
+				<div class="hader-comment-div">
+					<span class="comment-count-show">
+						View <span id="comment-count-value">1</span> more comment
+					</span>
+					<span class="comment-count-filter">
+						<span id="comment-filter">All Comments</span>
+						<i class="fas fa-caret-down"></i>
+
+					</span>
+				</div>
+
+				<div class="comment-output" id="Comment_Box" value ="1">
+					
+					<a href="#"><div class="profile-images comment-PI">
+						<img src="images/profile-images/new-images.jpg">
+						<div class="online_offline_icon o_F-CPI"></div>
+					</div></a>
+
+					<div class="comment-show">
+						<h1><a href="#" id="Profile_Name">Damo</a></h1>
+						<p id="Comment_Output">Lorem ipsum dolor sit amet.</p>
+
+						<span class="fas fa-ellipsis-h three-dot comm-td"></span>
+
+					</div>
+
+					<div class="comment-list-btn">
+						<ul>
+							<li class="comment-like-btn">Like
+
+								<div class="hover-window-like">
+									<ul>
+										<li class="like-gif-img">
+											<img src="images/icon/facebook-react-gif/like.gif">
+										</li>
+
+										<li class="love-gif-img">
+											<img src="images/icon/facebook-react-gif/love.gif">
+										</li>
+
+										<li class="wow-gif-img">
+											<img src="images/icon/facebook-react-gif/wow.gif">
+										</li>
+
+										<li class="haha-gif-img">
+											<img src="images/icon/facebook-react-gif/haha.gif">
+										</li>
+
+										<li class="sad-gif-img">
+											<img src="images/icon/facebook-react-gif/sad.gif">
+										</li>
+
+										<li class="angry-gif-img">
+											<img src="images/icon/facebook-react-gif/angry.gif">
+										</li>
+									</ul>
+								</div>
+
+							</li>
+							<li>Reply</li>
+							<li class="share-btn-li" id="share-btn-click">Share</li>
+							<li class="comment-uplode-time">12h</li>
+						</ul>
+
+						<div class="like-count-and-icon comment-count-icon">
+							<ul>
+								<li class="like-count-icon">
+									<img src="images/icon/svg-icon/facebook-reaction-like.svg">
+								</li>
+
+								<li class="love-count-icon">
+									<img src="images/icon/svg-icon/facebook-love.svg">
+								</li>
+
+								<li class="wow-count-icon">
+									<img src="images/icon/svg-icon/facebook-wow.svg">
+								</li>
+
+								<li class="haha-count-icon">
+									<img src="images/icon/svg-icon/facebook-haha.svg">
+								</li>
+
+								<li class="sad-count-icon">
+									<img src="images/icon/svg-icon/facebook-reaction-sad.svg">
+								</li>
+
+								<li class="angry-count-icon">
+									<img src="images/icon/svg-icon/facebook-angry.svg">
+								</li>
+
+								<div class="like-count-div"><a href="#" id="like-count-value">12</a></div>
+							</ul>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+			<div class="comment-input-aria" id="Comment_Aria">
+				
+				<a href="#"><div class="profile-images comment-PI">
+					<img src="images/profile-images/new-images.jpg">
+					<div class="online_offline_icon o_F-CPI"></div>
+				</div></a>
+
+				<div class="input-comment-div">
+					<input type="text" id="Comment_input" placeholder="Write a Comment...">
+
+					<ul>
+						<li class="face-icon-img">
+							<div class="div-size fii">
+								<img src="images/icon/icon.png">
+							</div>
+						</li>
+
+						<li class="cemera-icon-img">
+							<div class="div-size cii">
+								<img src="images/icon/icon.png">
+							</div>
+						</li>
+
+						<li class="gif-icon-img">
+							<div class="div-size gii">
+								<img src="images/icon/icon.png">
+							</div>
+						</li>
+
+						<li class="sticer-icon-img">
+							<div class="div-size sii">
+								<img src="images/icon/icon.png">
+							</div>
+						</li>
+
+					</ul>
+				</div>
+
+			</div>
+
+		</section>
+
+	<script type="text/javascript" src="js/castom.js"></script>
+	</body>
+
+</html>
